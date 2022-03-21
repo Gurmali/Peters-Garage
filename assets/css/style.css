@@ -11,3 +11,7 @@ body {
     font-family: Russo one, sans-serif;
     font-weight: 300;
 }
+
+header, h1 {
+    color: #8c97a9;
+}
