@@ -12,6 +12,10 @@ body {
     font-weight: 300;
 }
 
-header, h1 {
+/* headings and logo */
+
+h1, h2 {
     color: #8c97a9;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
