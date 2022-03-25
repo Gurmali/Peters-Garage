@@ -12,14 +12,17 @@ body {
     font-weight: 300;
 }
 
-.noDecoration, a:link, a:visited {
+.noDecoration,
+a:link,
+a:visited {
     text-decoration: none;
     color: #8c97a9;
 }
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     color: #8c97a9;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -43,4 +46,9 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin: 5px;
+}
+
+a:hover {
+    color: #1c2e4d;
+    transition: 0.4s;
 }
