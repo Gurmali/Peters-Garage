@@ -21,16 +21,12 @@ a:visited {
 
 /* headings and logo */
 
-#header-h1 {
-    padding-top: 10px;
-}
-
 #the-big-image {
     width: 100%;
     overflow: hidden;
 }
 
-#underflow {
+#image-sizing {
     height: 500px;
     width: 2560px;
 }
