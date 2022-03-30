@@ -20,22 +20,25 @@ a:visited {
 }
 
 /* headings and logo */
-
-#the-big-image {
+ 
+#hero-image {
     width: 100%;
-    overflow: hidden;
+    height: auto;
+    overflow: visible;
+    padding-top: 50px;
 }
 
-#image-sizing {
-    height: 500px;
-    width: 2560px;
-}
+
+.image-sizing {
+    width: 100%;
+    height: auto;
+    }
 
 header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
 
 h1,
 h2 {
