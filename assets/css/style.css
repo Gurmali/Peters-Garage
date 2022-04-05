@@ -19,26 +19,21 @@ a:visited {
     color: #8c97a9;
 }
 
-/* headings and logo */
- 
+/* Hero image */
+
 #hero-image {
+    height: 500px;
     width: 100%;
-    height: auto;
-    overflow: visible;
-    padding-top: 50px;
+    background: url('../images/alex-suprun-AHnhdjyTNGM-unsplash\(1\)större.jpg') no-repeat center center;
 }
 
-
-.image-sizing {
-    width: 100%;
-    height: auto;
-    }
+/* headings and logo */
 
 header {
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
 h1,
 h2 {
@@ -78,4 +73,3 @@ a:hover {
     color: #1c2e4d;
     transition: 0.4s;
 }
-
