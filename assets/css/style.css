@@ -35,8 +35,7 @@ header {
     width: 100%;
 }
 
-h1,
-h2 {
+h1 {
     color: #8c97a9;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -72,4 +71,75 @@ nav ul li {
 a:hover {
     color: #1c2e4d;
     transition: 0.4s;
+}
+
+#about {
+    height: 800px;
+    padding-top: 40px;
+}
+
+#about-box {
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+#about-box > p {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+#about-box > h2 {
+    font-family: 'Smooch Sans', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 5px;
+}
+
+.founder {
+    border: 2px solid black;
+    height: 300px;
+    width: 250px;
+    float: left;
+    margin: 30px 0 0 60px;
+}
+
+#man-in-garage {
+    height: 300px;
+    width: 250px;
+    margin: 0 auto;
+    float: left;
+
+}
+
+.under {
+    border: 2px solid black;
+    height: 146px;
+    width: 400px;
+    float: right;
+    margin: 30px 60px 0 0;
+}
+
+#man-under-car {
+    height: 146px;
+    width: 400px;
+    float: right;
+    margin: 0 auto;
+}
+
+.tool {
+    border: 2px solid black;
+    height: 146px;
+    width: 400px;
+    float: right;
+    margin: 5px 60px 0 0;
+}
+
+#man-with-tool {
+    height: 146px;
+    width: 400px;
+    float: right;
+    margin: 0 auto;
 }
