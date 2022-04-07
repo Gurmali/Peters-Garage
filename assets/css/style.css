@@ -179,6 +179,7 @@ a:hover {
 }
 
 #alignment-div {
+    margin-left: 0 auto;
 
 }
 
@@ -201,4 +202,22 @@ a:hover {
     margin-left: 390px;
     color: #8c97a9;
     text-shadow: 3px 3px #30405c;
+}
+
+#diagrep-div {
+    display: inline;
+}
+
+#diagrep {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 100px;
+}
+
+#rep {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
