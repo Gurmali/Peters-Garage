@@ -179,7 +179,9 @@ a:hover {
 }
 
 #alignment-div {
-    margin-left: 0 auto;
+float: left;
+padding-left: 250px;
+
 
 }
 
@@ -199,13 +201,13 @@ a:hover {
 }
 
 #alignment-div > h2 {
-    margin-left: 390px;
     color: #8c97a9;
     text-shadow: 3px 3px #30405c;
 }
 
 #diagrep-div {
-    display: inline;
+    float: left;
+    padding-left: 250px;
 }
 
 #diagrep {
@@ -213,11 +215,17 @@ a:hover {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-bottom: 100px;
+    margin-left: 10px;
 }
 
 #rep {
     height: 100px;
     width: 100px;
     border-radius: 50%;
+}
+
+#diagrep-div > h2 {
+    text-align: center;
+    color: #8c97a9;
+    text-shadow: 3px 3px #30405c;
 }
