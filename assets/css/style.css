@@ -12,7 +12,6 @@ body {
     font-weight: 300;
 }
 
-.noDecoration,
 a:link,
 a:visited {
     text-decoration: none;
@@ -74,7 +73,7 @@ a:hover {
 }
 
 #about {
-    height: 800px;
+    height: 700px;
     padding-top: 40px;
 }
 
@@ -89,6 +88,7 @@ a:hover {
     font-family: 'Smooch Sans', sans-serif;
     font-size: x-large;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 #about-box > h2 {
@@ -142,4 +142,63 @@ a:hover {
     width: 400px;
     float: right;
     margin: 0 auto;
+}
+
+#services-section {
+    height: 800px;
+}
+
+#services-box {
+    height: 600px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#full-service-div {
+    float: left;
+}
+
+#full-service {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+
+}
+
+#enginebay {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#full-service-div > h2 {
+    color: #8c97a9;
+    text-shadow: 3px 3px #30405c;
+}
+
+#alignment-div {
+
+}
+
+#alignment {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#wheel {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#alignment-div > h2 {
+    margin-left: 390px;
+    color: #8c97a9;
+    text-shadow: 3px 3px #30405c;
 }
