@@ -228,6 +228,7 @@ padding-left: 250px;
 
 #contact-section {
     height: 400px;
+    margin-top: 100px;
 }
 
 #contact-box {
@@ -239,18 +240,47 @@ padding-left: 250px;
 
 #contact-div {
     height: 200px;
-    width: 200px;
+    width: 400px;
     float: left;
     margin-left: 30px;
 }
 
 #visit-div {
     height: 200px;
-    width: 200px;
+    width: 240px;
     float: right;
+    padding-right: 60px;
+}
+
+#visit-div > h2 {
+    text-align: right;
 }
 
 #contact-box h2 {
+    color: #8c97a9;
+    text-shadow: 3px 3px #30405c;
+}
+
+span {
+    letter-spacing: 1px;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: x-large;
+}
+
+.right-spans {
+    text-align: right;
+}
+
+#open-times {
+    border: 2px solid black;
+    width: 350px;
+    height: 25px;
+    margin: 0 auto;
+
+}
+
+#open-times > h3 {
+    text-align: center;
     color: #8c97a9;
     text-shadow: 3px 3px #30405c;
 }
