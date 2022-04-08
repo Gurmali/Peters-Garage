@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #465775;
+    background-color: #6a6a6a;
     font-family: Russo one, sans-serif;
     font-weight: 300;
 }
@@ -15,7 +15,8 @@ body {
 a:link,
 a:visited {
     text-decoration: none;
-    color: #8c97a9;
+    color: #020303;
+    text-shadow: 1px 1px #8c97a9;
 }
 
 /* Hero image */
@@ -35,14 +36,19 @@ header {
 }
 
 h1 {
-    color: #8c97a9;
+    color: #020303;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
 
+h2 {
+    color: #020303;
+    text-shadow: 1px 1px #8c97a9;
+}
+
 #logo {
     margin-top: 20px !important;
-    text-shadow: 3px 3px #30405c;
+    text-shadow: 1px 1px #8c97a9;
     font-size: 230%;
     display: inline;
 
@@ -51,7 +57,7 @@ h1 {
 /* navigation */
 
 nav {
-    background-color: #465775;
+    background-color: #6a6a6a;
     height: 70px;
 }
 
@@ -65,10 +71,12 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin: 5px;
+    font-size: x-large;
 }
 
 a:hover {
-    color: #1c2e4d;
+    color: #8c97a9;
+    text-shadow: 1px 1px #020303;
     transition: 0.4s;
 }
 
@@ -92,9 +100,6 @@ a:hover {
 }
 
 #about-box > h2 {
-    /*font-family: 'Smooch Sans', sans-serif;*/
-    color: #8c97a9;
-    text-shadow: 3px 3px #30405c;
     text-align: center;
     font-size: xx-large;
     margin-bottom: 5px;
@@ -150,10 +155,6 @@ a:hover {
     height: 800px;
 }
 
-#services-section h2 {
-    color: #8c97a9;
-    text-shadow: 3px 3px #30405c;
-}
 
 #services-box {
     height: 250px;
@@ -256,11 +257,6 @@ padding-left: 250px;
     text-align: right;
 }
 
-#contact-box h2 {
-    color: #8c97a9;
-    text-shadow: 3px 3px #30405c;
-}
-
 span {
     letter-spacing: 1px;
     font-family: 'Smooch Sans', sans-serif;
@@ -281,8 +277,6 @@ span {
 
 #open-times {
     text-align: center;
-    color: #8c97a9;
-    text-shadow: 3px 3px #30405c;
     clear: both;
     padding-top: 10px;
 }
@@ -293,12 +287,10 @@ footer {
 
 #footer-text {
     text-align: center;
-    text-shadow: 2px 2px #30405c;
 }
 
 .social-networks {
     text-align: center;
-    text-shadow: 2px 2px #30405c;
 }
 
 .social-networks > li {
@@ -309,5 +301,6 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #8c97a9;
+    color: #020303;
+    text-shadow: 1px 1px #8c97a9;
 }
