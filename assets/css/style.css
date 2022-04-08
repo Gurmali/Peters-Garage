@@ -92,7 +92,9 @@ a:hover {
 }
 
 #about-box > h2 {
-    font-family: 'Smooch Sans', sans-serif;
+    /*font-family: 'Smooch Sans', sans-serif;*/
+    color: #8c97a9;
+    text-shadow: 3px 3px #30405c;
     text-align: center;
     font-size: xx-large;
     margin-bottom: 5px;
@@ -148,6 +150,11 @@ a:hover {
     height: 800px;
 }
 
+#services-section h2 {
+    color: #8c97a9;
+    text-shadow: 3px 3px #30405c;
+}
+
 #services-box {
     height: 250px;
     width: 1000px;
@@ -173,11 +180,6 @@ a:hover {
     border-radius: 50%;
 }
 
-#full-service-div > h2 {
-    color: #8c97a9;
-    text-shadow: 3px 3px #30405c;
-}
-
 #alignment-div {
 float: left;
 padding-left: 250px;
@@ -200,10 +202,6 @@ padding-left: 250px;
     margin: 0 auto;
 }
 
-#alignment-div > h2 {
-    color: #8c97a9;
-    text-shadow: 3px 3px #30405c;
-}
 
 #diagrep-div {
     float: left;
@@ -226,6 +224,33 @@ padding-left: 250px;
 
 #diagrep-div > h2 {
     text-align: center;
+}
+
+#contact-section {
+    height: 400px;
+}
+
+#contact-box {
+    height: 300px;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+#contact-div {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 30px;
+}
+
+#visit-div {
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+#contact-box h2 {
     color: #8c97a9;
     text-shadow: 3px 3px #30405c;
 }
