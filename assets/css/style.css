@@ -271,16 +271,27 @@ span {
     text-align: right;
 }
 
-#open-times {
+#open-times-box {
     border: 2px solid black;
-    width: 350px;
-    height: 25px;
-    margin: 0 auto;
-
+    width: 500px;
+    height: 40px;
+    clear: both;
+    margin-left: 350px;
 }
 
-#open-times > h3 {
+#open-times {
     text-align: center;
     color: #8c97a9;
     text-shadow: 3px 3px #30405c;
+    clear: both;
+    padding-top: 10px;
+}
+
+footer {
+    height: 300px;
+}
+
+#footer-text {
+    text-align: center;
+    text-shadow: 2px 2px #30405c;
 }
