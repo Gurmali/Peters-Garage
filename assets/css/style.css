@@ -295,3 +295,19 @@ footer {
     text-align: center;
     text-shadow: 2px 2px #30405c;
 }
+
+.social-networks {
+    text-align: center;
+    text-shadow: 2px 2px #30405c;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #8c97a9;
+}
