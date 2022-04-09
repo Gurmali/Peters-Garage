@@ -366,12 +366,22 @@ footer {
 
 #form-section {
     width: 640px;
-    height: 790px;
+    height: 580px;
     margin: 0 auto;
     border: 2px solid black;
     border-radius: 4px;
     padding: 10px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
+}
+
+#form-big {
+    width: 640px;
+    height: 780px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 30px;
 }
 
 #form-section h2, p {
