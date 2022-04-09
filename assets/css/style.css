@@ -78,11 +78,11 @@ nav ul li {
 a:hover {
     color: #8c97a9;
     text-shadow: 1px 1px #020303;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 #about {
-    height: 700px;
+    height: 800px;
     padding-top: 40px;
 }
 
@@ -152,6 +152,11 @@ p {
     margin: 0 auto;
 }
 
+#welcome {
+    padding-top: 40px;
+    clear: both;
+}
+
 #services-section {
     height: 800px;
 }
@@ -164,6 +169,16 @@ p {
     padding-top: 70px;
 }
 
+#services-box > h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 40px;
+}
+
+#services-box > p {
+    margin-bottom: 50px;
+}
+
 #full-service-div {
     float: left;
 }
@@ -174,7 +189,6 @@ p {
     width: 100px;
     border-radius: 50%;
     margin-left: 20px;
-
 }
 
 #enginebay {
@@ -231,7 +245,7 @@ padding-left: 250px;
 
 #contact-section {
     height: 400px;
-    margin-top: 200px;
+    margin-top: 400px;
 }
 
 #contact-box {
@@ -307,11 +321,11 @@ footer {
     text-shadow: 1px 1px #8c97a9;
 }
 
-#full-service-section {
+.the-services {
     height: 800px;
 }
 
-#service-headline {
+.services-headline {
     height: 70px;
     width: 400px;
     margin: 0 auto;
@@ -319,9 +333,99 @@ footer {
     text-align: center;
 }
 
-#service-text {
-    height: 100px;
-    width: 600px;
+.services-text {
+    height: 170px;
+    width: 800px;
     padding-top: 50px;
     margin: 0 auto;
 }
+
+.service-img-box {
+    height: 300px;
+    width: 550px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.service-img {
+    height: 300px;
+    width: 550px;
+    margin: 0 auto;
+}
+
+#form-section {
+    width: 640px;
+    height: 575px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+#form-section h2, p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+form {
+    padding-top: 30px;
+}
+
+label {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+input {
+    width: 600px;
+    padding: 10px;
+    margin: 7px;
+    border-radius: 4px;
+    border: 2px solid black;
+    background-color: #6a6a6a;
+}
+
+input:hover {
+    background-color: #8c97a9;
+}
+
+input:focus {
+    background-color: #8c97a9;
+}
+
+input[type=submit] {
+    width: 100px;
+    height: 60px;
+    float: right;
+    margin-top: 20px;
+}
+
+#send-button {
+    font-size: larger;
+    font-family: Russo One, sans-serif;
+    text-shadow: 1px 1px #8c97a9;
+}
+
+::placeholder {
+    color: black;
+}
+
+/*select {
+    width: 622px;
+    padding: 10px;
+    margin: 7px;
+    border-radius: 4px;
+    border: 2px solid black;
+    background-color: #6a6a6a;
+}
+
+select:focus {
+    background-color: #8c97a9;
+}
+
+select:hover {
+    background-color: #8c97a9;
+}*/

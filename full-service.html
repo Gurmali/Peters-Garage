@@ -26,27 +26,58 @@
             <a href="index.html"><h1 id="logo">Peters Garage</h1></a>
             <ul>
                 <li>
-                    <a href="#hero">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="#about">About Us</a>
+                    <a href="index.html#about">About Us</a>
                 </li>
                 <li>
-                    <a href="#services-section">Services</a>
+                    <a href="index.html#services-section">Services</a>
                 </li>
                 <li>
-                    <a href="#contact-section">Contact</a>
+                    <a href="index.html#contact-section">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section id="full-service-section">
-        <div id="service-headline">
+    <section class="the-services">
+        <div class="services-headline">
             <h1>Full Service</h1>
         </div>
-        <div id="service-text">
-            <p><strong>We offer high-quality service with all original parts and quality oil. By providing you with the best kind of service we keep your car running like it should while protecting the environment. We also perform an inspection of the entire vehicle with every service.</strong></p>
+        <div class="services-text">
+            <p><strong>We offer high-quality service with all original parts and quality oil. 
+                By providing you with the best kind of service we keep your car running like it should while protecting the environment. 
+                We also perform an inspection of the entire vehicle with every service.</strong></p>
         </div>
+        <div class="service-img-box">
+            <img class="service-img" src="assets/images/pexels-cottonbro-4481944.jpg" alt="Man doing service on car.">
+        </div>
+    </section>
+    <section id="form-section">
+        <h2><strong>Make an Appointment</strong></h2>
+        <p><strong>Leave your information and we'll call you to set up an appoinment.</strong></p>
+        <form action="https://formdump.codeinstitute.net" method="post">
+            <label for="f-l-name">First and Last Name:</label>
+            <input type="text" name="full-name" id="f-l-name" placeholder="Your name here.">
+
+            <label for="phone">Phone-number:</label>
+            <input type="number" name="phone-number" id="phone" placeholder="eg. +46700449757">
+
+            <label for="e-mail">Email-Address:</label>
+            <input type="email" name="emailaddress" id="e-mail" placeholder="eg. Gurmali@hotmail.com">
+
+            <label for="make">Car Make:</label>
+            <input type="text" name="car-make" id="make" placeholder="eg. BMW">
+            <!--<select name="car-make" id="make" size="1">
+                <option value="BMW">BMW</option>
+            </select>-->
+
+            <label for="model">Car Model</label>
+            <input type="text" name="car-model" id="model" placeholder="eg. 3 Series">
+
+            <label for="send-button"></label>
+            <input type="submit" name="send" value="Send!" id="send-button">
+        </form>
     </section>
     <footer>
         <div id="footer-text"><h2>Follow us on social media</h2></div>
