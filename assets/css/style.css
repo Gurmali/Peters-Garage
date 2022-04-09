@@ -248,6 +248,16 @@ padding-left: 250px;
     margin-top: 400px;
 }
 
+#get-in-touch {
+    padding-top: 70px;
+}
+
+#contact-section > h2 {
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: xx-large;
+}
+
 #contact-box {
     height: 300px;
     width: 1200px;
@@ -299,6 +309,7 @@ span {
 
 footer {
     height: 300px;
+    margin-top: 200px;
 }
 
 #footer-text {
