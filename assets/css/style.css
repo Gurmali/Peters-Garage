@@ -12,11 +12,11 @@ body {
     font-weight: 300;
 }
 
-a:link,
-a:visited {
-    text-decoration: none;
-    color: #020303;
-    text-shadow: 1px 1px #8c97a9;
+p {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 /* Hero image */
@@ -27,7 +27,7 @@ a:visited {
     background: url('../images/alex-suprun-AHnhdjyTNGM-unsplash\(1\)större.jpg') no-repeat center center;
 }
 
-/* headings and logo */
+/* Headings and Logo */
 
 header {
     position: fixed;
@@ -49,13 +49,19 @@ h2 {
 
 #logo {
     margin-top: 20px !important;
-    /*text-shadow: 1px 1px #8c97a9;*/
     font-size: 230%;
     display: inline;
 
 }
 
-/* navigation */
+/* Navigation */
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #020303;
+    text-shadow: 1px 1px #8c97a9;
+}
 
 nav {
     background-color: #6a6a6a;
@@ -81,6 +87,8 @@ a:hover {
     transition: 0.3s;
 }
 
+/* About Section */
+
 #about {
     height: 800px;
     padding-top: 40px;
@@ -91,13 +99,6 @@ a:hover {
     width: 800px;
     margin: 0 auto;
     padding-top: 40px;
-}
-
-p {
-    font-family: 'Smooch Sans', sans-serif;
-    font-size: x-large;
-    text-align: center;
-    letter-spacing: 2px;
 }
 
 #about-box > h2 {
@@ -119,7 +120,6 @@ p {
     width: 250px;
     margin: 0 auto;
     float: left;
-
 }
 
 .under {
@@ -157,10 +157,11 @@ p {
     clear: both;
 }
 
+/* Services Section */
+
 #services-section {
     height: 800px;
 }
-
 
 #services-box {
     height: 250px;
@@ -198,10 +199,8 @@ p {
 }
 
 #alignment-div {
-float: left;
-padding-left: 250px;
-
-
+    float: left;
+    padding-left: 250px;
 }
 
 #alignment {
@@ -218,7 +217,6 @@ padding-left: 250px;
     border-radius: 50%;
     margin: 0 auto;
 }
-
 
 #diagrep-div {
     float: left;
@@ -243,6 +241,8 @@ padding-left: 250px;
     text-align: center;
 }
 
+/* Contact Section */
+
 #contact-section {
     height: 400px;
     margin-top: 400px;
@@ -262,7 +262,6 @@ padding-left: 250px;
     height: 300px;
     width: 1200px;
     margin: 0 auto;
-
 }
 
 #contact-div {
@@ -307,6 +306,8 @@ span {
     padding-top: 10px;
 }
 
+/* Footer Section*/
+
 footer {
     height: 300px;
     margin-top: 200px;
@@ -332,6 +333,8 @@ footer {
     text-shadow: 1px 1px #8c97a9;
 }
 
+/* Styling for the three side-pages */
+
 .the-services {
     height: 800px;
 }
@@ -342,6 +345,12 @@ footer {
     position: absolute;
     padding-top: 101px;
     padding-left: 700px;
+}
+
+.back-button h2:hover {
+    color: #8c97a9;
+    text-shadow: 1px 1px #020303;
+    transition: 0.3s;
 }
 
 .services-headline {
@@ -371,6 +380,8 @@ footer {
     width: 550px;
     margin: 0 auto;
 }
+
+/* Styling for the forms */
 
 #form-section {
     width: 640px;
@@ -450,20 +461,3 @@ textarea {
     border: 2px solid black;
     background-color: #6a6a6a;
 }
-
-/*select {
-    width: 622px;
-    padding: 10px;
-    margin: 7px;
-    border-radius: 4px;
-    border: 2px solid black;
-    background-color: #6a6a6a;
-}
-
-select:focus {
-    background-color: #8c97a9;
-}
-
-select:hover {
-    background-color: #8c97a9;
-}*/
