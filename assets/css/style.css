@@ -339,20 +339,6 @@ footer {
     height: 800px;
 }
 
-.back-button {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    padding-top: 101px;
-    padding-left: 700px;
-}
-
-.back-button h2:hover {
-    color: #8c97a9;
-    text-shadow: 1px 1px #020303;
-    transition: 0.3s;
-}
-
 .services-headline {
     height: 70px;
     width: 400px;
