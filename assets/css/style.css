@@ -245,7 +245,6 @@ a:hover {
 
 #contact-section {
     height: 400px;
-    margin-top: 400px;
 }
 
 #get-in-touch {
@@ -448,7 +447,13 @@ textarea {
     background-color: #6a6a6a;
 }
 
+/* Media query for max width 1200px */
+
 @media screen and (max-width: 1200px) {
+
+    #contact-section {
+        margin-top: 200px;
+    }
 
     #contact-box {
         height: 800px;
@@ -494,13 +499,13 @@ textarea {
     }
 
     #about {
-        height: 110rem;
+        height: 75rem;
         width: 70%;
         margin: 0 auto;
     }
 
     #about-box {
-        height: 110rem;
+        height: 75rem;
         width: 70%;
         margin: 0 auto;
     }
@@ -520,6 +525,53 @@ textarea {
     .services-text {
         height: 350px;
         width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+/* Media query for max-width 791px */
+
+@media screen and (max-width: 791px) {
+
+    nav {
+        height: 90px;
+    }
+
+    #about {
+        height: 90rem;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #contact-box {
+        height: 200px;
+        width: 500px;
+        margin: 0 auto;
+        float: left;
+        padding-left: 20%;
+    }
+
+    footer {
+        float: left;
+
+    }
+
+}
+
+/* Media query for max-width 500px */
+@media screen and (max-width: 500px) {
+
+    #about {
+        height: 110rem;
+        width: 70%;
+        margin: 0 auto;
+    }
+    #under {
+        margin: 0 auto;
+    }
+
+    #tool {
         margin: 0 auto;
     }
 
