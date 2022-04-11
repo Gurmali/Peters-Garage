@@ -388,6 +388,11 @@ footer {
     margin-bottom: 30px;
 }
 
+#form-big h2, p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 #form-section h2, p {
     text-align: center;
     padding-bottom: 10px;
