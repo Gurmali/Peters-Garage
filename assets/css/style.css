@@ -564,6 +564,23 @@ textarea {
 
 }
 
+/*media query for max-width 630px*/
+
+@media screen and (max-width: 630px) {
+    
+    #open-times-box {
+        border: 2px solid black;
+        width: 80%;
+        height: 40px;
+        float: left;
+    }
+
+    #visit-div {
+        float: left;
+    }
+
+}
+
 /* Media query for max-width 500px */
 @media screen and (max-width: 500px) {
 
@@ -579,7 +596,7 @@ textarea {
     #tool {
         margin: 0 auto;
     }
-
+    
 }
 
 /* Media query for max-width 200px */
