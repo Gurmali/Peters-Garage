@@ -530,9 +530,9 @@ textarea {
 
 }
 
-/* Media query for max-width 791px */
+/* Media query for max-width 808px */
 
-@media screen and (max-width: 791px) {
+@media screen and (max-width: 808px) {
 
     nav {
         height: 90px;
@@ -573,6 +573,16 @@ textarea {
 
     #tool {
         margin: 0 auto;
+    }
+
+}
+
+/* Media query for max-width 200px */
+
+@media screen and (max-width: 200px) {
+
+    nav {
+        height: 200px;
     }
 
 }
