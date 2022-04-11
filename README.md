@@ -34,14 +34,30 @@ The site provides people with information about the company and the services the
 
 - __Services section__
 
- - The Service section provides the user with three of the most common services performed at Peters Garage.
+  - The Services section provides the user with three of the most common services performed at Peters Garage.
 
- - A full service of a vehicle.
+  - A full service of a vehicle.
 
- - A wheel alignment.
+  - A wheel alignment.
 
- - A diagnosis and reparation.
+  - A diagnosis and reparation.
 
- - The three pictures are all working links that each have their own page when clicked.
+  - The three pictures are all working links that each have their own page when clicked.
 
 <img src="assets/images/services-section.jpg">
+
+- __Pages for the three services__
+
+  - Each service has its own page explaining to the user with a paragraph of why you should get the service done at peters garage.
+
+  - They all have a relevant picture to the service in question.
+
+  - A fuctional form is included on every page encouraging the user to leave their information to get contacted for an appointment.
+
+<img src="assets/images/full-service.jpg">
+
+<img src="assets/images/wheel-alignment.jpg">
+
+<img src="assets/images/diag-rep.jpg">
+
+<img src="assets/images/form.jpg">
