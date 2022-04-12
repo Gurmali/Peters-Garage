@@ -61,3 +61,23 @@ The site provides people with information about the company and the services the
 <img src="assets/images/diag-rep.jpg">
 
 <img src="assets/images/form.jpg">
+
+- __Contact Section__
+
+  - The contact section contains information about how to get in touch with Peters Garage.
+
+  - It provides clear information on what number to call and what email address the user can send an email to.
+
+  - The address is also provided aswell as a zip code and the city where Peters Garage is located.
+
+  - There is a clear text telling the user the hours the business is open.
+
+<img src="assets/images/contact-section.jpg">
+
+- __Footer Section__
+
+  - The Footer section contains links to different social media accounts assosiated with Peters garage.
+
+  - There is a link to Facebook, Twitter, Youtube and Instagram.
+
+<img src="assets/images/footer-section.jpg">
