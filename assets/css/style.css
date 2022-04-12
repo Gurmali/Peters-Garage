@@ -52,7 +52,6 @@ h2 {
     padding-left: 20px;
     font-size: 230%;
     display: inline;
-
 }
 
 /* Navigation */
@@ -91,6 +90,7 @@ a:hover {
 /* About Section */
 
 #about {
+    background-color: aqua;
     height: 800px;
     padding-top: 40px;
 }
@@ -161,6 +161,7 @@ a:hover {
 /* Services Section */
 
 #services-section {
+    background-color: aliceblue;
     height: 800px;
 }
 
@@ -245,6 +246,7 @@ a:hover {
 /* Contact Section */
 
 #contact-section {
+    background-color: bisque;
     height: 400px;
 }
 
@@ -309,6 +311,7 @@ span {
 /* Footer Section*/
 
 footer {
+    background-color: rgb(151, 108, 43);
     height: 300px;
     margin-top: 200px;
 }
