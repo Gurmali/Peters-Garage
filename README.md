@@ -134,5 +134,16 @@ __Footer Section__
 
   - (if the page doesn't refresh automatically) Refresh the page and a message will come up with a link to the website.
 
-- The live link can ba found here: https://gurmali.github.io/Peters-Garage/
+- The live link can be found here: https://gurmali.github.io/Peters-Garage/
 
+## Credits
+
+- Took inspiration and the code for social media links on the Footer section from the Love Running project.
+
+## Media
+
+- Most of the pictures used were taken from Pexels.com
+
+- Hero Image taken from unsplash.com 
+
+- Icons for the Contact section and Footer section taken from Font-Awesome
