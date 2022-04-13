@@ -20,13 +20,15 @@ p {
 }
 
 /* Hero image */
-
+/*
 #hero-image {
     height: 500px;
-    width: 100%;
+    width: 1400px;
     background: url('../images/alex-suprun-AHnhdjyTNGM-unsplash\(1\)större.jpg') no-repeat center center;
+    margin: 0 auto;
+    background-size: cover;
 }
-
+*/
 /* Headings and Logo */
 
 header {
@@ -92,11 +94,12 @@ a:hover {
 #about {
     height: 800px;
     padding-top: 40px;
+    width: 1440px;
+    margin: auto;
 }
 
 #about-box {
     height: 500px;
-    width: 800px;
     margin: 0 auto;
     padding-top: 40px;
 }
@@ -107,49 +110,57 @@ a:hover {
     margin-bottom: 5px;
 }
 
+#about-pictures {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#picture1-div {
+    display: inline-block;
+    width: 300px;
+    
+
+}
+
 #founder {
     border: 2px solid black;
     height: 300px;
     width: 250px;
-    float: left;
-    margin: 30px 0 0 60px;
 }
+
 
 #man-in-garage {
     height: 300px;
     width: 250px;
     margin: 0 auto;
-    float: left;
+}
+
+#picture2-div {
+    display: inline-block;
 }
 
 #under {
     border: 2px solid black;
     height: 146px;
     width: 400px;
-    float: right;
     margin: 30px 60px 0 0;
 }
 
 #man-under-car {
     height: 146px;
     width: 400px;
-    float: right;
-    margin: 0 auto;
 }
 
 #tool {
     border: 2px solid black;
     height: 146px;
     width: 400px;
-    float: right;
     margin: 5px 60px 0 0;
 }
 
 #man-with-tool {
     height: 146px;
     width: 400px;
-    float: right;
-    margin: 0 auto;
 }
 
 #welcome {
@@ -161,27 +172,29 @@ a:hover {
 
 #services-section {
     height: 800px;
+    width: 1440px;
+    margin: auto;
 }
 
-#services-box {
-    height: 250px;
-    width: 1000px;
-    margin: 0 auto;
-    padding-top: 70px;
-}
-
-#services-box > h2 {
+#services-section > h2 {
     text-align: center;
     font-size: xx-large;
     margin-bottom: 40px;
 }
 
-#services-box > p {
+#services-section > p {
     margin-bottom: 50px;
 }
 
+#services-box {
+    height: 40%;
+    width: 800px;
+    margin: 0 auto;
+}
+
 #full-service-div {
-    float: left;
+float: left;
+
 }
 
 #full-service {
@@ -189,7 +202,6 @@ a:hover {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-left: 20px;
 }
 
 #enginebay {
@@ -198,9 +210,13 @@ a:hover {
     border-radius: 50%;
 }
 
+#full-service-div > h2 {
+    text-align: center;
+}
+
 #alignment-div {
     float: left;
-    padding-left: 250px;
+    padding-left: 30%;
 }
 
 #alignment {
@@ -208,19 +224,21 @@ a:hover {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin: 0 auto;
 }
 
 #wheel {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin: 0 auto;
+}
+
+#alignment-div > h2 {
+    text-align: center;
 }
 
 #diagrep-div {
     float: left;
-    padding-left: 250px;
+    padding-left: 20%;
 }
 
 #diagrep {
@@ -228,7 +246,6 @@ a:hover {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-left: 10px;
 }
 
 #rep {
@@ -244,7 +261,9 @@ a:hover {
 /* Contact Section */
 
 #contact-section {
-    height: 400px;
+    height: 600px;
+    width: 1440px;
+    margin: auto;
 }
 
 #get-in-touch {
@@ -259,22 +278,25 @@ a:hover {
 
 #contact-box {
     height: 300px;
-    width: 1200px;
     margin: 0 auto;
+}
+
+#contact {
+    float: left;
 }
 
 #contact-div {
     height: 200px;
     width: 400px;
-    float: left;
-    margin-left: 30px;
+}
+
+#visit {
+    float: right;
 }
 
 #visit-div {
     height: 200px;
     width: 240px;
-    float: right;
-    padding-right: 60px;
 }
 
 #visit-div > h2 {
@@ -291,26 +313,36 @@ span {
     text-align: right;
 }
 
+#open {
+    width: 500px;
+    margin: 0 auto;
+}
+
 #open-times-box {
     border: 2px solid black;
     width: 500px;
     height: 40px;
     clear: both;
-    margin-left: 350px;
 }
 
 #open-times {
     text-align: center;
-    clear: both;
     padding-top: 10px;
 }
 
 /* Footer Section*/
 
 footer {
-
     height: 300px;
     margin-top: 200px;
+    width: 1440px;
+    margin: auto;
+}
+
+#footer-box {
+    height: 300px;
+    margin: 0 auto;
+
 }
 
 #footer-text {
@@ -336,7 +368,8 @@ footer {
 /* Styling for the three side-pages */
 
 .the-services {
-    height: 800px;
+    width: 1440px;
+    margin: auto;
 }
 
 .services-headline {
@@ -349,29 +382,33 @@ footer {
 
 .services-text {
     height: 170px;
-    width: 800px;
     padding-top: 50px;
+    text-align: center;
     margin: 0 auto;
+}
+
+#service-images {
+    margin: auto;
 }
 
 .service-img-box {
     height: 300px;
     width: 550px;
-    margin: 0 auto;
     border: 2px solid black;
+    margin: 0 auto;
 }
 
 .service-img {
     height: 300px;
     width: 550px;
-    margin: 0 auto;
 }
 
 /* Styling for the forms */
 
+
 #form-section {
     width: 640px;
-    height: 580px;
+    height: 560px;
     margin: 0 auto;
     border: 2px solid black;
     border-radius: 4px;
@@ -398,6 +435,26 @@ footer {
     text-align: center;
     padding-bottom: 10px;
 }
+
+/*.the-form {
+    width: 640px;
+    height: 580px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.the-form-big {
+    width: 640px;
+    height: 780px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 30px;
+}*/
 
 form {
     padding-top: 30px;
@@ -455,7 +512,12 @@ textarea {
 
 /* Media query for max width 1200px */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
+
+    #about-picures {
+        display: block;
+        height: 400px;
+    }
 
     #contact-section {
         margin-top: 200px;
@@ -463,8 +525,7 @@ textarea {
 
     #contact-box {
         height: 800px;
-        width: 500px;
-        margin: 0 auto;
+        padding: 0 15% 0 15%;
     }
 
     footer {
@@ -473,19 +534,16 @@ textarea {
 
     #open-times-box {
         border: 2px solid black;
-        width: 500px;
         height: 40px;
         margin: 0 auto;
     }
 
     #services-box {
         height: 500px;
-        width: 70%;
     }
 
     #services-box > div {
         margin: 0 auto;
-        width: 160px;
         height: 100px;
         padding-left: 40%;
     }
@@ -505,32 +563,29 @@ textarea {
     }
 
     #about {
-        height: 75rem;
-        width: 70%;
+        height: 750px;
         margin: 0 auto;
+        display: block;
     }
 
     #about-box {
         height: 75rem;
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
     }
 
     .the-services {
         height: 1000px;
-        width: 80%;
         margin: 0 auto;
     }
 
     .services-headline {
         height: 50px;
-        width: 80%;
         margin: 0 auto;
     }
 
     .services-text {
         height: 350px;
-        width: 80%;
         margin: 0 auto;
     }
 
@@ -538,7 +593,7 @@ textarea {
 
 /* Media query for max-width 808px */
 
-@media screen and (max-width: 808px) {
+/*@media screen and (max-width: 808px) {
 
     nav {
         height: 90px;
@@ -552,7 +607,6 @@ textarea {
 
     #contact-box {
         height: 200px;
-        width: 500px;
         margin: 0 auto;
         float: left;
         padding-left: 20%;
@@ -567,7 +621,7 @@ textarea {
 
 /*media query for max-width 630px*/
 
-@media screen and (max-width: 630px) {
+/*@media screen and (max-width: 630px) {
     
     #open-times-box {
         border: 2px solid black;
@@ -583,7 +637,8 @@ textarea {
 }
 
 /* Media query for max-width 500px */
-@media screen and (max-width: 500px) {
+
+/*@media screen and (max-width: 500px) {
 
     #about {
         height: 110rem;
@@ -602,7 +657,7 @@ textarea {
 
 /* Media query for max-width 200px */
 
-@media screen and (max-width: 200px) {
+/*@media screen and (max-width: 200px) {
 
     nav {
         height: 200px;
