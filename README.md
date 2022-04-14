@@ -54,6 +54,8 @@ __Pages for the three services__
 
   - A fuctional form is included on every page encouraging the user to leave their information to get contacted for an appointment.
 
+  - The form redirects the user to a Thank you page.
+
 <img src="assets/images/full-service.jpg">
 
 <img src="assets/images/wheel-alignment.jpg">
