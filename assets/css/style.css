@@ -118,16 +118,8 @@ a:hover {
     width: 300px;
 }
 
-/*#founder {
-    border: 2px solid black;
-    height: 300px;
-    width: 250px;
-}*/
-
-
 #man-in-garage {
     border: 2px solid black;
-    height: 300px;
     width: 250px;
 }
 
@@ -136,29 +128,13 @@ a:hover {
     width: 300px;
 }
 
-/*#under {
-    border: 2px solid black;
-    height: 146px;
-    width: 400px;
-    margin: 30px 60px 0 0;
-}*/
-
 #man-under-car {
     border: 2px solid black;
-    height: 146px;
     width: 400px;
 }
 
-/*#tool {
-    border: 2px solid black;
-    height: 146px;
-    width: 400px;
-    margin: 5px 60px 0 0;
-}*/
-
 #man-with-tool {
     border: 2px solid black;
-    height: 146px;
     width: 400px;
 }
 
@@ -322,12 +298,6 @@ span {
     margin: auto;
 }
 
-/*#open-times-box {
-    border: 2px solid black;
-    height: 40px;
-    clear: both;
-}*/
-
 #open-times {
     border: 2px solid black;
     text-align: center;
@@ -377,7 +347,7 @@ footer {
 
 .services-headline {
     height: 70px;
-    width: 400px;
+    width: 50%;
     margin: 0 auto;
     padding-top: 100px;
     text-align: center;
@@ -431,7 +401,7 @@ footer {
 }
 
 .the-form {
-    width: 60%;
+    width: 640px;
     height: 580px;
     margin: auto;
     border: 2px solid black;
@@ -486,16 +456,7 @@ input[type=submit] {
     color: black;
 }
 
-textarea {
-    width: 600px;
-    padding: 10px;
-    margin: 7px;
-    border-radius: 4px;
-    border: 2px solid black;
-    background-color: #6a6a6a;
-}
-
-/* Media query for max width 1200px */
+/* Media query for max width 1100px */
 
 @media screen and (max-width: 1100px) {
 
@@ -512,12 +473,6 @@ textarea {
 
     #picture2-div {
         display: block;
-    }
-
-    #under {
-    }
-    
-    #man-under-car {
     }
 
     #services-section {
@@ -549,7 +504,6 @@ textarea {
     
     }
 
-
     #full-service-div {
         padding-top: 50px;
     }
@@ -575,7 +529,6 @@ textarea {
     }
 
     .the-services {
-        height: 1000px;
         margin: 0 auto;
     }
 
@@ -595,78 +548,90 @@ textarea {
         border: none;
     }
 
+    .the-form {
+        width: 60%;
+    }
+
 }
 
-/* Media query for max-width 808px */
+/* Media query for max-width 811px */
 
-/*@media screen and (max-width: 808px) {
+@media screen and (max-width: 811px) {
 
     nav {
         height: 90px;
     }
 
-    #about {
-        height: 90rem;
-        width: 70%;
-        margin: 0 auto;
-    }
-
-    #contact-box {
-        height: 200px;
-        margin: 0 auto;
-        float: left;
-        padding-left: 20%;
-    }
-
-    footer {
-        float: left;
-
-    }
-
 }
 
-/*media query for max-width 630px*/
 
-/*@media screen and (max-width: 630px) {
-    
-    #open-times-box {
-        border: 2px solid black;
-        width: 80%;
-        height: 80px;
-        float: left;
+/* Media query for max width 575 */
+
+@media screen and (max-width: 575px) {
+
+    #man-in-garage {
+        width: 200px;
     }
 
-    #visit-div {
-        float: left;
+    #man-under-car {
+        width: 300px;
     }
 
-}
-
-/* Media query for max-width 500px */
-
-/*@media screen and (max-width: 500px) {
-
-    #about {
-        height: 110rem;
-        width: 70%;
-        margin: 0 auto;
-    }
-    #under {
-        margin: 0 auto;
+    #man-with-tool {
+        width: 300px;
     }
 
-    #tool {
-        margin: 0 auto;
+    .service-img-box {
+        width: 350px;
+    }
+
+    .service-img {
+        width: 350px;
     }
     
+    #contact-section {
+        padding-top: 600px;
+    }
 }
 
-/* Media query for max-width 200px */
+/* Media query for max width 438px */
 
-/*@media screen and (max-width: 200px) {
-
+@media screen and (max-width: 438px) {
+    
     nav {
-        height: 200px;
+        height: 130px;
     }
 
+    #contact-section {
+        padding-top: 700px;
+    }
+
+    .service-img-box {
+        width: 300px;
+    }
+
+    .service-img {
+        width: 300px;
+    }
+
+    #man-in-garage {
+        width: 150px;
+    }
+
+    #man-under-car {
+        width: 200px;
+    }
+
+    #man-with-tool {
+        width: 200px;
+    }
+}
+
+/* Media query for max width 369px */
+
+@media screen and (max-width: 369px) {
+    
+    nav {
+        height: 160px;
+    }
 }
