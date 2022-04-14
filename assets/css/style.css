@@ -454,6 +454,22 @@ input[type=submit] {
     color: black;
 }
 
+#thank-you {
+    width: 95vw;
+    margin: auto;
+}
+
+#thank-you-div {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 200%;
+}
+
+#thank-you-div > p {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: xx-large;
+}
+
 /* Media query for max width 1100px */
 
 @media screen and (max-width: 1100px) {
