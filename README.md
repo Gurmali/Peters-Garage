@@ -112,7 +112,7 @@ __Footer Section__
 
   - I have tested and confirmed that the accessibility score is good by running it through Lighthouse in Dev-tools.
 
-  - The performance score however is a bit on the low side.
+  - The performance score was a bit low to begin with but after some cleaning up of the code it looks alot better.
 
 <img src="assets/images/lighthouse.jpg">
 

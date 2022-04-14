@@ -109,13 +109,14 @@ a:hover {
 }
 
 #about-pictures {
-    width: 120%;
+    width: 80%;
     margin: auto;
 }
 
 #picture1-div {
     display: inline-block;
     width: 300px;
+    margin: auto;
 }
 
 #man-in-garage {
