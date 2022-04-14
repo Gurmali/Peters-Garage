@@ -650,6 +650,10 @@ input[type=submit] {
     #man-with-tool {
         width: 200px;
     }
+
+    #thank-you-div {
+        padding-top: 150px;
+    }
 }
 
 /* Media query for max width 369px */
@@ -658,5 +662,9 @@ input[type=submit] {
     
     nav {
         height: 160px;
+    }
+
+    #thank-you-div {
+        padding-top: 200px;
     }
 }
