@@ -567,7 +567,11 @@ input[type=submit] {
 @media screen and (max-width: 438px) {
     
     nav {
-        height: 130px;
+        height: 80px;
+    }
+
+    nav ul li {
+        font-size: large;
     }
 
     #about {
@@ -608,7 +612,7 @@ input[type=submit] {
 @media screen and (max-width: 369px) {
     
     nav {
-        height: 160px;
+        height: 120px;
     }
 
     #thank-you-div {
