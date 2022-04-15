@@ -108,35 +108,14 @@ a:hover {
     margin-bottom: 5px;
 }
 
-#about-pictures {
-    width: 80%;
-    margin: auto;
-}
-
 #picture1-div {
-    display: inline-block;
-    width: 300px;
+    width: 250px;
     margin: auto;
 }
 
 #man-in-garage {
     border: 2px solid black;
     width: 250px;
-}
-
-#picture2-div {
-    display: inline-block;
-    width: 300px;
-}
-
-#man-under-car {
-    border: 2px solid black;
-    width: 400px;
-}
-
-#man-with-tool {
-    border: 2px solid black;
-    width: 400px;
 }
 
 #welcome {
@@ -169,10 +148,9 @@ a:hover {
 }
 
 #services-box {
-    width: 800px;
+    width: 700px;
     margin: auto;
     display: block;
-    height: 50%;
 }
 
 #full-service-div {
@@ -198,7 +176,7 @@ float: left;
 
 #alignment-div {
     float: left;
-    padding-left: 30%;
+    padding-left: 25%;
 }
 
 #alignment {
@@ -475,21 +453,6 @@ input[type=submit] {
 
 @media screen and (max-width: 1100px) {
 
-
-
-    #about-picures {
-        display: block;
-        margin: 0 auto;
-    }
-
-    #picture1-div {
-        display: block;
-    }
-
-    #picture2-div {
-        display: block;
-    }
-
     #services-section {
         width: 100%;
         padding-bottom: 500px;
@@ -590,16 +553,8 @@ input[type=submit] {
 
 @media screen and (max-width: 575px) {
 
-    #man-in-garage {
+    #picture1-div {
         width: 200px;
-    }
-
-    #man-under-car {
-        width: 300px;
-    }
-
-    #man-with-tool {
-        width: 300px;
     }
 
     .service-img-box {
@@ -640,16 +595,12 @@ input[type=submit] {
         width: 300px;
     }
 
-    #man-in-garage {
+    #picture1-div {
         width: 150px;
     }
 
-    #man-under-car {
-        width: 200px;
-    }
-
-    #man-with-tool {
-        width: 200px;
+    #man-in-garage {
+        width: 150px;
     }
 
     #thank-you-div {
