@@ -343,13 +343,13 @@ footer {
 }
 
 .service-img-box {
-    width: 550px;
+    width: 530px;
     margin: 0 auto;
 }
 
 .service-img {
     border: 2px solid black;
-    width: 550px;
+    width: 530px;
 }
 
 /* Styling for the forms */
@@ -565,6 +565,9 @@ input[type=submit] {
         width: 350px;
     }
 
+    input {
+        width: 85%;
+    }
 }
 
 /* Media query for max width 438px */
