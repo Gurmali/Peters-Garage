@@ -154,11 +154,10 @@ a:hover {
 }
 
 #full-service-div {
-float: left;
-}
+    float: left;
+    }
 
 #full-service {
-
     height: 100px;
     width: 100px;
 }
@@ -358,19 +357,11 @@ footer {
     width: 95vw;
 }
 
-#form-big {
-    width: 95vw
-}
-
 #form-text {
     width: 50%;
     margin: auto;
 }
 
-#form-big h2, p {
-    text-align: center;
-    padding-bottom: 10px;
-}
 
 #form-section h2, p {
     text-align: center;
@@ -386,7 +377,6 @@ footer {
     padding: 10px;
     margin-bottom: 30px;
 }
-
 
 form {
     padding-top: 30px;
