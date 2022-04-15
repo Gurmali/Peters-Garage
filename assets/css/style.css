@@ -355,6 +355,8 @@ footer {
 
 #form-section {
     width: 95vw;
+    padding-top: 80px;
+    margin: auto;
 }
 
 #form-text {
