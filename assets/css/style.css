@@ -575,23 +575,7 @@ input[type=submit] {
     }
 
     #about {
-    padding-top: 90px;
-    }
-
-    #contact-section {
-        padding-top: 140px;
-    }
-
-    #services-section {
-        padding-top: 150px;
-    }
-
-    .service-img-box {
-        width: 300px;
-    }
-
-    .service-img {
-        width: 300px;
+    padding-top: 25px;
     }
 
     #picture1-div {
@@ -602,6 +586,23 @@ input[type=submit] {
         width: 150px;
     }
 
+    #services-section {
+        padding-top: 88px;
+        margin-bottom: 70px;
+    }
+
+    #contact-section {
+        padding-top: 100px;
+    }
+
+    .service-img-box {
+        width: 300px;
+    }
+
+    .service-img {
+        width: 300px;
+    }
+    
     #thank-you-div {
         padding-top: 150px;
     }
@@ -613,6 +614,19 @@ input[type=submit] {
     
     nav {
         height: 120px;
+    }
+
+    #about {
+        padding-top: 60px;
+    }
+
+    #services-section {
+        padding-top: 120px;
+        margin-bottom: 100px;
+    }
+
+    #contact-section {
+        padding-top: 125px;
     }
 
     #thank-you-div {
