@@ -28,7 +28,7 @@ __About Us Section__
 
 - The About Us section gives the user an explanation of who Peter and his co-workers are and why customers might want to get their car fixed at Peters Garage.
 
-- Pictures are included of Peter and his co-workers showing the dedication they put in on they're work.
+- A Picture is included of Peter looking like a boss.
 
 <img src="assets/images/about-us-section.jpg">
 
